@@ -1,0 +1,167 @@
+body{
+    background-color: #efefef;
+}
+
+
+
+
+div.txt-headinglabel{
+    color: #0F5259;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div.txt-heading-icon-delete{
+    color: #0F5259;
+    float:left;
+    font-size: 15px;
+    font-weight: bold;
+    float:right;
+    font-weight: bold;
+}
+
+table.cos{
+    width:100%;
+
+}
+
+.cos th strong{
+    color: #0F5259;
+    width: 20%;
+}
+
+.cos tr.total td, .cos tr.total td strong{
+    color:#20736A;
+    background-color: #bbc6c1;
+    
+}
+
+.cos td, 
+.cos td strong {
+    color:#20736A;
+    background-color: #D2D9D6;
+}
+
+h1, h2, h3, p,
+div.product-price{
+    color:#20736A;
+}
+
+div.product-desc-txt{
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#20736A;
+    padding: 20px 50px;
+}
+
+div.product-image{
+    
+    text-align: center;
+}
+
+.login{
+    padding: 2px 25px 25px 25px;
+    background-color: rgba(137,171,171,0.2);
+}
+
+nav.navtop{
+    background-color: #D2D9D6;
+}
+
+.nav_link{
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#20736A;
+}
+
+i{
+    color: #20736A;
+}
+
+strong, a{
+    
+    font-size: 17px;
+    text-decoration: none;
+    border-radius: 10%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #20736A;
+}
+
+.btn {
+    background-color: #D9430D;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.navtop{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=date],
+input[type=number],
+input[type=datetime], 
+select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+input[type=submit] {
+    width: 80%;
+    background-color: #D9430D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .product-grid{
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+  }
+
+  .product-item{
+    height: max-content;
+    width: 33%;
+    float: left;
+  }
+
+input.quantity{
+    height: 40px;
+    width: 30%;
+    float: left;
+    margin-left: 0%;
+}
+
+input.add_cart_btn{
+    text-align: center;
+    height: 40px;
+    width: 60%;
+    float: left;
+}
+  
